@@ -1,0 +1,68 @@
+/* src/styles/Explorar.css */
+.explorar-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fff0f6, #fffde7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.explorar-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  max-width: 960px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.explorar-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.explorar-text-box {
+  padding: 2rem;
+  text-align: center;
+}
+
+.explorar-title {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 1rem;
+}
+
+.explorar-text {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+.explorar-button-box {
+  padding: 0 2rem 2rem;
+  text-align: center;
+}
+
+.explorar-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #c2185b;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.explorar-button:hover {
+  background-color: #ad1457;
+  transform: translateY(-2px);
+}
