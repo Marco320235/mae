@@ -5,18 +5,18 @@ export default function Explorar2() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/explorar10");
+    navigate("/explorar13");
   };
 
   return (
     <div className="explorar-container">
       <div className="explorar-content">
-        <img src="/assets/image7.jpeg" alt="Foto" className="explorar-image" />
+        <img src="/assets/image12.jpeg" alt="Foto" className="explorar-image" />
 
         <div className="explorar-text-box">
-          <h2 className="explorar-title">Primão e rapinha</h2>
+          <h2 className="explorar-title">Seu patrimônio</h2>
           <p className="explorar-text">
-            Ja a relação desses dois ai nem tem comentários, é só de amor, primão sempre fez o que quis com ela.
+            Tudo isso foi você quem construiu mãe, ninguém acolhe uma familia tão bem igual, estaremos sempre juntos.
           </p>
         </div>
 

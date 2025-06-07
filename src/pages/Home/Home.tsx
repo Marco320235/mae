@@ -9,7 +9,13 @@ export default function Home() {
       <div className="home-card">
         <h1 className="home-title">🎉 Feliz Aniversário, Mãe!</h1>
         <p className="home-text">
-          Essa galeria é uma homenagem cheia de amor! Clique no botão abaixo para começar 💖
+          Fizemos essa galeria de lembranças, espero que preencha seu coração com todo amor que sentimos por você 💖
+        </p>
+        <p className="home-text">
+          De: Brenda Lara e Marco Antônio 
+        </p>
+        <p className="home-text">
+          Para: Marina Brito 
         </p>
         <button className="home-button" onClick={() => navigate("/explorar")}>
           Ver Homenagem

@@ -5,7 +5,7 @@ export default function Explorar2() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/explorar7");
+    navigate("/explorar8");
   };
 
   return (
@@ -16,7 +16,7 @@ export default function Explorar2() {
         <div className="explorar-text-box">
           <h2 className="explorar-title">Eu</h2>
           <p className="explorar-text">
-            Esse ai sou eu, comendo como sempre.
+            Esse ai sou eu, ela também me fez, comendo como sempre.
           </p>
         </div>
 

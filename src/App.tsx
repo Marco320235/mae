@@ -8,6 +8,16 @@ import Explorar5 from "./pages/Explorar5";
 import Explorar6 from "./pages/Explorar6";
 import Explorar7 from "./pages/Explorar7";
 import Explorar8 from "./pages/Explorar8";
+import Explorar9 from "./pages/Explorar9";
+import Explorar10 from "./pages/Explorar10";
+import Explorar11 from "./pages/Explorar11";
+import Explorar12 from "./pages/Explorar12";
+import Explorar13 from "./pages/Explorar13";
+import Explorar14 from "./pages/Explorar14";
+import Explorar16 from "./pages/Explorar16";
+import Explorar17 from "./pages/Explorar17";
+
+import Encerramento from "./pages/Encerramento";
 
 
 function App() {
@@ -23,7 +33,15 @@ function App() {
         <Route path="/explorar6" element={<Explorar6 />} />
         <Route path="/explorar7" element={<Explorar7 />} />
         <Route path="/explorar8" element={<Explorar8 />} />
-
+        <Route path="/explorar9" element={<Explorar9 />} />
+        <Route path="/explorar10" element={<Explorar10 />} />
+        <Route path="/explorar11" element={<Explorar11 />} />
+        <Route path="/explorar12" element={<Explorar12 />} />
+        <Route path="/explorar13" element={<Explorar13 />} />
+        <Route path="/explorar14" element={<Explorar14 />} />
+        <Route path="/explorar16" element={<Explorar16 />} />
+        <Route path="/explorar17" element={<Explorar17 />} />
+        <Route path="/encerramento" element={<Encerramento />} />
       </Routes>
     </Router>
   );

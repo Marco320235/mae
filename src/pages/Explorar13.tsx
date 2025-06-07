@@ -5,18 +5,18 @@ export default function Explorar2() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/explorar10");
+    navigate("/explorar14");
   };
 
   return (
     <div className="explorar-container">
       <div className="explorar-content">
-        <img src="/assets/image7.jpeg" alt="Foto" className="explorar-image" />
+        <img src="/assets/image13.jpg" alt="Foto" className="explorar-image" />
 
         <div className="explorar-text-box">
-          <h2 className="explorar-title">Primão e rapinha</h2>
+          <h2 className="explorar-title">Autores</h2>
           <p className="explorar-text">
-            Ja a relação desses dois ai nem tem comentários, é só de amor, primão sempre fez o que quis com ela.
+            Sim, esse site foi feito por nós dois, ela esteve comigo enquanto eu estava fazendo, e estará pra sempre com todos nós, e sem ela esse site não seria possivel, todas as fotos usadas eram favoritadas por ela.
           </p>
         </div>
 

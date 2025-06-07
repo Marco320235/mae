@@ -5,18 +5,18 @@ export default function Explorar2() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/explorar10");
+    navigate("/explorar16");
   };
 
   return (
     <div className="explorar-container">
       <div className="explorar-content">
-        <img src="/assets/image7.jpeg" alt="Foto" className="explorar-image" />
+        <img src="/assets/image14.jpeg" alt="Foto" className="explorar-image" />
 
         <div className="explorar-text-box">
-          <h2 className="explorar-title">Primão e rapinha</h2>
+          <h2 className="explorar-title">Amor</h2>
           <p className="explorar-text">
-            Ja a relação desses dois ai nem tem comentários, é só de amor, primão sempre fez o que quis com ela.
+            Existem pessoas que não importa o que aconteça, sempre estarão em nossos corações e pensamentos, enquanto o amor prevalecer pelos que ficaram, a vida delas continuará, e uma coisa é certa, permanecerá até o ultimo suspiro do autor.
           </p>
         </div>
 
